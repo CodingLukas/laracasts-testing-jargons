@@ -15,6 +15,6 @@ class TagParser
     public function parse($string)
     {
         /** means look for comma and maybe for space. ? - last char is optional */
-        return preg_split('/ ?[,|] ?/', $string);
+        return preg_split('/ ?[,|!] ?/', $string);
     }
 }
