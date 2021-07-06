@@ -29,4 +29,9 @@ class Question
     {
         return $this->correct;
     }
+
+    public function answered()
+    {
+        return isset($this->answer);
+    }
 }
